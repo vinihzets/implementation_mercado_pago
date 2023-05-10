@@ -26,6 +26,7 @@ class _HomeState extends State<Home> {
   // --> pega a publicKey do usuario(VENDEDOR) no mercadoPago
   final String tokenAcess =
       'TEST-3070843847140697-040512-6401310aa21c05c200efdffc93666002-185567692';
+  // --> token de acesso tambem incluido no mercadoPago logo abaixo de publicKey
 
   @override
   void initState() {
