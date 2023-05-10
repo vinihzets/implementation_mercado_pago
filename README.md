@@ -1,13 +1,11 @@
-# methods_payment
+# methods_payment_mercado_pago
 
-A new Flutter project.
+uma simples integração a uma aplicação utilizando mercado pago, pagamento via cartao de credito e debito.
 
 ## Getting Started
 
 
 A implementação do mercado pago em sua aplicação.
-
-
 
 // --> primeiro passo instalar nas dependencias ( pubspec.yaml ) mercado_pago_mobile_checkout e http <-->
 
