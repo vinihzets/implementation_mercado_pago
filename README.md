@@ -20,6 +20,14 @@ A implementação do mercado pago em sua aplicação.
 // --> pegar o retorno da minha funcionalidade que me retorna todas informações do usuario e da venda e gera automaticamente uma chave de preferencia 
 // na minha funcionalidade retorno simplesmente o id da minha preferencia, armazeno ele em uma variavel na minha view e utilizo para iniciar meu checkout.
 
+// --> ai inicializo meu checkout PaymentResult result = await MercadoPagoMobileCheckout.startCheckout
+(publicKey --> chave do usuario mercadoPago,await preferenceKey --> as informações da venda que eu mesmo defino o valor e quantidade, passado para um mapa e convertido
+para um JSON posteriormente,);
+
+// --> ao fazer isso, vai aparecer as informações de pagamento com cartão de credito ou debito, ou como pagar em uma loterica (BOLETO), inserindo os dados se der certo, 
+automaticamente consigo verificar o resultado atraves da minha variavel (result) => que você vai utilizar pra fazer toda a regra de negocio de sua aplicação desejada.
+
+
 
 
 
