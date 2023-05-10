@@ -52,6 +52,8 @@ class _HomeState extends State<Home> {
                   publicKey,
                   await preferenceKey,
                 );
+                //--> esse result vai conter as informações de retorno, ou seja vai me retornar o status do pagamento , se ele está aprovado ou negado
+                // com esse resultado você lida com sua aplicação do jeito que desejar conforme sua regra de negocio
               },
               child: Text('testes'))),
     );
